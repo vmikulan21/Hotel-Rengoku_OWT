@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+    <meta name="author" content="Viktor Mikulan">
+    <meta name="description" content="Cijenik za hotel Rengoku">
+    <meta name="keywords" content="cijenik,soba,eura,usluge">
+	<title>Hotel Rengoku cijenik</title>
+	<link rel="stylesheet" href="../css/vmikulan21.css">
+    <link rel="stylesheet" href="../css/vmikulan21_responzivni_dizajn.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../dokumenti/slike/Hotel_rengoku_logo.png" alt="Logo Hotel Rengoku"></a>
+        <h1>Hotel Rengoku</h1>
+    </header>
+    <nav id="izb">
+        <ul>
+            <li><a href="index.html" class="izbornik-stavka">Početna stranica</a></li>
+            <li><a href="autor.html" class="izbornik-stavka">O autoru</a></li>
+            <li><a href="dokumentacija.html" class="izbornik-stavka">Dokumentacija</a></li>
+            <li><a href="kontakt.html" class="izbornik-stavka">Kontakt</a></li>
+            <li><a href="rezervacija.html" class="izbornik-stavka">Rezevacija</a></li>
+            <li><a href="galerija.html" class="izbornik-stavka">Galerija slika</a></li>
+            <li><a href="cijenik.html" class="izbornik-stavka trenutni">Cijenik</a></li>
+            <li><a href="akcijska1.html" class="izbornik-stavka">Ponuda 1</a></li>
+            <li><a href="akcijska2.html" class="izbornik-stavka">Ponuda 2</a></li>
+            <li><a href="akcijska3.html" class="izbornik-stavka">Ponuda 3</a></li> 
+        </ul>
+    </nav>
+    <div class="izbornik-dropdown">
+        <button class="dropbtn">Izbornik</button>
+        <div class="dropdown-stavke">
+            <a href="index.html" class="izbornik-stavka">Početna stranica</a>
+            <a href="autor.html" class="izbornik-stavka">O autoru</a>
+            <a href="dokumentacija.html" class="izbornik-stavka">Dokumentacija</a>
+            <a href="kontakt.html" class="izbornik-stavka">Kontakt</a>
+            <a href="rezervacija.html" class="izbornik-stavka">Rezevacija</a>
+            <a href="galerija.html" class="izbornik-stavka">Galerija slika</a>
+            <a href="cijenik.html" class="izbornik-stavka trenutni">Cijenik</a>
+            <a href="akcijska1.html" class="izbornik-stavka">Ponuda 1</a>
+            <a href="akcijska2.html" class="izbornik-stavka">Ponuda 2</a>
+            <a href="akcijska3.html" class="izbornik-stavka">Ponuda 3</a>
+        </div>
+    </div>
+    <main>

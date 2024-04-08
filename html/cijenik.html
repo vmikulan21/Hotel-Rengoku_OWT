@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+    <meta name="author" content="Viktor Mikulan">
+    <meta name="description" content="Cijenik za hotel Rengoku">
+    <meta name="keywords" content="cijenik,soba,eura,usluge">
+	<title>Hotel Rengoku cijenik</title>
+	<link rel="stylesheet" href="../css/vmikulan21.css">
+  <link rel="stylesheet" href="../css/vmikulan21_responzivni_dizajn.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../dokumenti/slike/Hotel_rengoku_logo.png" alt="Logo Hotel Rengoku"></a>
+        <h1>Hotel Rengoku</h1>
+    </header>
+    <nav id="izb">
+      <ul>
+          <li><a href="index.html" class="izbornik-stavka">Početna stranica</a></li>
+          <li><a href="autor.html" class="izbornik-stavka">O autoru</a></li>
+          <li><a href="dokumentacija.html" class="izbornik-stavka">Dokumentacija</a></li>
+          <li><a href="kontakt.html" class="izbornik-stavka">Kontakt</a></li>
+          <li><a href="rezervacija.html" class="izbornik-stavka">Rezevacija</a></li>
+          <li><a href="galerija.html" class="izbornik-stavka">Galerija slika</a></li>
+          <li><a href="cijenik.html" class="izbornik-stavka trenutni">Cijenik</a></li>
+          <li><a href="akcijska1.html" class="izbornik-stavka">Ponuda 1</a></li>
+          <li><a href="akcijska2.html" class="izbornik-stavka">Ponuda 2</a></li>
+          <li><a href="akcijska3.html" class="izbornik-stavka">Ponuda 3</a></li>
+          <li><a href="dinamicna">Dinamični cjenik</a></li>
+          <li><a href="api/rezervacije">api rezervacije</a> 
+      </ul>
+  </nav>
+  <div class="izbornik-dropdown">
+      <button class="dropbtn">Izbornik</button>
+      <div class="dropdown-stavke">
+          <a href="index.html" class="izbornik-stavka">Početna stranica</a>
+          <a href="autor.html" class="izbornik-stavka">O autoru</a>
+          <a href="dokumentacija.html" class="izbornik-stavka">Dokumentacija</a>
+          <a href="kontakt.html" class="izbornik-stavka">Kontakt</a>
+          <a href="rezervacija.html" class="izbornik-stavka">Rezevacija</a>
+          <a href="galerija.html" class="izbornik-stavka">Galerija slika</a>
+          <a href="cijenik.html" class="izbornik-stavka trenutni">Cijenik</a>
+          <a href="akcijska1.html" class="izbornik-stavka">Ponuda 1</a>
+          <a href="akcijska2.html" class="izbornik-stavka">Ponuda 2</a>
+          <a href="akcijska3.html" class="izbornik-stavka">Ponuda 3</a>
+          <li><a href="dinamicna">Dinamični cjenik</a></li>
+          <li><a href="api/rezervacije">api rezervacije</a>
+      </div>
+    </div>
+	<main>
+<table id="cijenik">
+    <caption>Cjenik usluga</caption>
+    <thead>
+      <tr>
+        <th></th>
+        <th>Dvokrevetna soba</th>
+        <th>Trokrevetna Superior soba</th>
+        <th>Obiteljska soba</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Opis sobe</td>
+        <td>Soba s dva kreveta</td>
+        <td>Superior soba s tri kreveta</td>
+        <td>Soba s četiri kreveta</td>
+      </tr>
+      <tr>
+        <td>Cijena noćenja</td>
+        <td>70 eura</td>
+        <td>110 eura</td>
+        <td>90 eura</td>
+      </tr>
+      <tr>
+        <td>Doručak i večera</td>
+        <td rowspan="2" colspan="2">Uključeno u cijenu noćenja</td>
+        <td>Besplatni doručak i večera, za dodatne osobe 2 eura po osobi</td>
+      </tr>
+      <tr>
+        <td>Noćni klub</td>
+        <td>Besplatno dostupan ulaz noćnom klubu</td>
+      </tr>
+      <tr>
+        <td>Wellness i spa centar</td>
+        <td colspan="3">Besplatan pristup wellnes i spa centru uz mogućnost nodoplate za teretanu i saunu</td>
+      </tr>
+      <tr>
+        <td>Dodatne usluge</td>
+        <td>Korištenje water parka uz nadoplatu</td>
+        <td>Pristup muzejima uz akcijsku ponudu</td>
+        <td>Pristup igralištu uz obiteljsku ponudu</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+<script src="../jsk/vmikulan21.js"></script>
+  <footer>
+    <div class="footer-left">
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+            <img src="../dokumenti/slike/cc-by-nc.png" alt="CC BY-NC" class="cc-img">
+        </a>
+        <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_02/vmikulan21/ostalo/cijenik.html">
+            <img src="../dokumenti/slike/HTML5.png" alt="HTML5" class="html-img">
+        </a>
+
+    </div>
+    <div class="footer-right">
+        <span>&copy; 2023 Viktor Mikulan</span>
+    </div>
+</footer>
+</body>
+</html>
