@@ -1,0 +1,17 @@
+</main>
+    <script src="../jsk/vmikulan21.js"></script>
+    <footer>
+        <div class="footer-left">
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+                <img src="../dokumenti/slike/cc-by-nc.png" alt="CC BY-NC" class="cc-img">
+            </a>
+            <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2023/zadaca_02/vmikulan21/ostalo/cijenik.html">
+                <img src="../dokumenti/slike/HTML5.png" alt="HTML5" class="html-img">
+            </a>
+        </div>
+        <div class="footer-right">
+            <span>&copy; 2023 Viktor Mikulan</span>
+        </div>
+    </footer>
+</body>
+</html>
